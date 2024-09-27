@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="data">
+            <button id="onLight" onclick="onThelight()">On the Light</button>
+            <div id="light"></div>
+            <button id="ofLight" onclick="offThelight()">Off the Light</button>
+        </div>
+    </div>
+
+    <script>
+function onThelight(){
+    document.getElementById('light').style.backgroundColor='yellow';
+}
+function offThelight(){
+    document.getElementById('light').style.backgroundColor='white';
+}
+
+    </script>
+</body>
+</html>
